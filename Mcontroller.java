@@ -23,7 +23,7 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin("http://localhost:3004")
 public class Mcontroller {
 	@Autowired
 	private Mservice service;
